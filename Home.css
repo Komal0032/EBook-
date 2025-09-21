@@ -1,0 +1,36 @@
+.container-fluid {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 100%;
+    border:#111010;
+}
+
+.h1 {
+    animation: fadeIn 2s ease-in-out;
+    font-size: 2.5rem;
+    color: #111010;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #111010;
+    padding-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
